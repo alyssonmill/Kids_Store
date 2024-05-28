@@ -1,0 +1,144 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body{
+    background-color: black;
+    opacity: 0.9;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: "Poppins";
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.header {
+    background-color: rgb(204, 183, 155);
+    opacity: 0.9;
+    width: 70%;
+    height: 12vh;
+    text-align: center;
+    line-height: 12vh;
+    position: absolute;
+    color: white;
+    border-radius: 120px;
+    margin-left: 15em;
+    margin-top: 1em;
+}
+
+.logo {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    /* margin-top: 1.5em; */
+}
+
+.logoImg {
+    width: 200px;
+}
+
+.navBar {
+    display: inline-block;
+    font-size: 1.3em;
+}
+
+.navList :hover {
+    transition-duration: 0.3s;
+    transition-duration: color;
+    color: #412411;
+    font-size: 1.1em;
+    font-weight: bold;
+
+}
+
+#list {
+    float: left;
+    margin-left: 1.5em;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/pexels-gabby-k-5063313.jpg);
+    background-size: cover;
+    /* font-weight: bold; */
+}
+
+.content1 {
+    width: 50%;
+    display: inline-block;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 0.025rem;
+    font-size: 5vh;
+    margin-top: 25vh;
+    margin-left: 3em;
+    font-weight: 300;
+}
+
+.content-tittle {
+    font-size: 2em;
+    font-weight: 800;
+    line-height: 1em;
+}
+
+.content-subtittle {
+    font-size: 0.7em;
+    font-weight: 300;
+    margin-top: 5vh;
+}
+
+.btn {
+    margin-top: 5vh;
+}
+.btn-content {
+    padding: 1.5em;
+    background-color: #ffff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    color: black;
+}
+
+.btn-content:hover {
+    transition-duration: 0.5s;
+    transition-duration: padding;
+    padding: 1.7em;
+    background-color: #412411;
+    color: white;
+    font-weight: bold;
+}
