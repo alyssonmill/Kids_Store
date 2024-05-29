@@ -194,8 +194,6 @@ img {
     display: inline-block;
     width: 40vw;
     height: 60vh; 
-    border: 1px solid #ccc;
-    border-radius: 1em;
     margin-top: 5vh;
   }
   
