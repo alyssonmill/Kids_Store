@@ -142,3 +142,33 @@ img {
     color: white;
     font-weight: bold;
 }
+.popular{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(204, 183, 155);
+    opacity: 0.9;
+    text-align: center;
+}
+.popular_titlle{
+    font-size: 3.5em;
+    font-weight: 800;
+    line-height: 1em;
+    padding-top: 15vh;
+    color: white;
+}
+.popular_cards{
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 10vh;
+
+}
+.popular_card{
+    display: inline-block;
+    color: white;
+    width: 20vw;
+    height: 40vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 3em;
+}
