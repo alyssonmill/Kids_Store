@@ -74,6 +74,7 @@ img {
 .navBar {
     display: inline-block;
     font-size: 1.3em;
+    /* float: right; */
 }
 
 .navList :hover {
@@ -82,14 +83,19 @@ img {
     color: #412411;
     font-size: 1.1em;
     font-weight: bold;
-
 }
 
 #list {
     float: left;
     margin-left: 1.5em;
 }
-
+.shopping_car{
+    display: inline-block;
+}
+.shopping_car_icon{
+    float: right;
+    text-align: end;
+}
 .content {
     width: 100%;
     height: 100vh;
