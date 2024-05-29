@@ -37,38 +37,57 @@
         <h1 class="popular_titlle">Most Popular</h1>
         <div class="popular_cards">
             <div class="popular_card">
-                <img class="card_img" width="100vw" src="./images/pexels-gabby-k-5063313.jpg" alt="">
-                <p class="card_p">Sage Green Drops Rainsuit</p>
-                <h3 class="card_price">€39,50 EUR</h3>
-                <button style="padding: 0.8em;" class="btn-content">SHOP NOW</button>
+                <img class="card_img" src="./images/pexels-gabby-k-5063313.jpg" alt="">
+                <div class="popular_card_content">
+                    <p class="card_p">Sage Green Drops Rainsuit</p>
+                    <h1 class="card_price">€39,50 EUR</h1>
+                    <button style="padding: 0.8em;" class="btn-content">SHOP NOW</button>
+                </div>
             </div>
             <div class="popular_card">
-                <img class="card_img" width="100vw" src="./images/pexels-gabby-k-5063313.jpg" alt="">
-                <p class="card_p">Sage Green Drops Rainsuit</p>
-                <h3 class="card_price">€39,50 EUR</h3>
-                <button style="padding: 0.8em;" class="btn-content">SHOP NOW</button>
+                <img class="card_img" src="./images/pexels-gabby-k-5063313.jpg" alt="">
+                <div class="popular_card_content">
+                    <p class="card_p">Sage Green Drops Rainsuit</p>
+                    <h1 class="card_price">€39,50 EUR</h1>
+                    <button style="padding: 0.8em;" class="btn-content">SHOP NOW</button>
+                </div>
             </div>
             <div class="popular_card">
-                <img class="card_img" width="100vw" src="./images/pexels-gabby-k-5063313.jpg" alt="">
-                <p class="card_p">Sage Green Drops Rainsuit</p>
-                <h3 class="card_price">€39,50 EUR</h3>
-                <button style="padding: 0.8em;" class="btn-content">SHOP NOW</button>
+                <img class="card_img" src="./images/pexels-gabby-k-5063313.jpg" alt="">
+                <div class="popular_card_content">
+                    <p class="card_p">Sage Green Drops Rainsuit</p>
+                    <h1 class="card_price">€39,50 EUR</h1>
+                    <button style="padding: 0.8em;" class="btn-content">SHOP NOW</button>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="contact_us">
-        <form action="post">
-            <label for="user_name">Name: </label>
-            <input type="text">
-            <br>
-            <label for="user_name">Email: </label>
-            <input type="text">
-            <br>
-            <label for="user_name">Phone: </label>
-            <input type="text">
+    <section id="contact" class="contact">
+        <h1 class="contact-title">Contact Us</h1>
+        <form class="contact-form" method="post">
+            <ul class="form-list">
+                <li class="form-name">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" />
+                </li>
+                <li class="form-email">
+                    <label for="msg">Phone:</label>
+                    <input type="number" id="phone" name="user_phone" required/> 
+                    
+                </li>
+                <li class="form-message">
+                    <label for="mail">Email:</label>
+                    <input type="email" id="email" name="user_email" required/>    
+                </li>
+                <li class="button">
+                    <button type="submit" class="btn-content">SEND YOUR MESSAGE</button>
+                </li>
+            </ul>
         </form>
+
     </section>
+
 
 
 
