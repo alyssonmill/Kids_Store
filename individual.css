@@ -1,0 +1,97 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body{
+    background-color: rgb(220, 206, 188);
+
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: "Poppins";
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.header {
+    background-color: rgb(204, 183, 155);
+    opacity: 0.9;
+    width: 70%;
+    height: 12vh;
+    text-align: center;
+    line-height: 12vh;
+    /* position: absolute; */
+    color: white;
+    border-radius: 120px;
+    margin-left: 15em;
+    margin-top: 1em;
+}
+
+.logo {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    /* margin-top: 1.5em; */
+}
+
+.logoImg {
+    width: 200px;
+}
+
+.navBar {
+    display: inline-block;
+    font-size: 1.3em;
+    /* float: right; */
+}
+
+.navList :hover {
+    transition-duration: 0.3s;
+    transition-duration: color;
+    color: #412411;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#list {
+    float: left;
+    margin-left: 1.5em;
+}
+.shopping_car{
+    display: inline-block;
+}
+.shopping_car_icon{
+    float: right;
+    text-align: end;
+}
