@@ -101,22 +101,44 @@ img {
 }
 
 .content {
+    display: inline-block;
     height: 100vh;
     text-align: center;
     margin-top: 15vh;
 }
 
 .left_content {
-    width: 50vw;
+    width: 48vw;
     display: inline-block;
     float: left;
     text-align: right;
 }
 
-.rigth_content {
+.right_content {
+    float: right;
+    height: 100vh;
+    width: 48vw;
     text-align: left;
-    margin-left: 50em;
+    font-size: 1.3em;
+    padding-left: 3em;
 }
+.qtd_box{
+    width: 15vw;
+    height: 30px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -183,7 +205,6 @@ button {
     display: inline-block;
     margin-top: 2vh;
     padding: 1.7em;
-    background-color: #3452FF;
     border: none;
     border-radius: 10px;
     font-weight: 800;
