@@ -97,12 +97,11 @@ img {
 }
 .about_us{
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
     background-color: rgb(220, 206, 188);
     text-align: center;
 }
 .about_us_titlle{
-    margin:auto;
     font-size: 50px;
     margin-top: 5vh;
 }
@@ -110,19 +109,38 @@ img {
     width: 70vw;
     margin:auto;
     margin-top: 5vh;
+    margin-bottom: 10vh;
     text-align: left;
     line-height: 2em;
     font-size: 20px;
 }
 .content_img{
-    width: 700px;
-    margin-top: 5vh;
+    width: 50vw;
+    height: 50vh;
+    background-color: red;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+}
+.btn-content {
+    padding: 1.5em;
+    background-color: #ffff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    color: black;
+}
 
+.btn-content:hover {
+    transition-duration: 0.5s;
+    transition-duration: padding;
+    padding: 1.7em;
+    background-color: #412411;
+    color: white;
+    font-weight: bold;
 }
 .contact {
-    /* background-color: red; */
     background-color: rgb(220, 206, 188);
-    margin-top: 20vh;
     height: 90vh;
     text-align: center;
     color: #412411;
@@ -179,7 +197,6 @@ img {
     display: inline-block;
     margin-top: 2vh;
     padding: 1.7em;
-    background-color: #3452FF;
     border: none;
     border-radius: 10px;
     font-weight: 800;  
