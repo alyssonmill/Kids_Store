@@ -15,7 +15,6 @@ a {
     box-sizing: inherit;
 }
 body{
-    /* background-color: black; */
     opacity: 0.9;
 }
 
@@ -39,29 +38,108 @@ ol,
 ul {
     list-style: none;
 }
-
 img {
     max-width: 100%;
     height: auto;
 }
-header{
-    width: 100vw;
-    height: 100vh;
-    background-color: pink;
+.promo{
+    display: flex;
+    font-size: 20px;
+    height: 5vh;
+    background-color: brown;
+    justify-content: center;    
 }
 nav {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
     flex-wrap: wrap;
-    background-color: red;
+    width: 60vw;
+    height: 10vh;
 }
-.logo {
+.content{
     display: flex;
-    font-size: 24px;
-    font-weight: bold;
-    width: 20vw;
-    background-color: blue;
+    height: 115vh;
+    background-image: url(./images/pexels-pixabay-207891.jpg);
+    opacity: 0.9;
+    background-size:cover;
 }
-.nav_list{
-    flex: 1 1 initial;
+.content1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    line-height: 9vh;
+    width: 60vw;
+    margin: auto;
+    justify-content: center; 
+}
+.btn-content{
+    padding: 1.5em;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.btn-content:hover{
+    transition-duration: 0.5s;
+    transition-duration: padding;
+    padding: 1.7em;
+    background-color: #412411;
+    color: white;
+    font-weight: bold;
+}
+.main{
+    display: flex;
+}
+.titlle{
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 80vh;
+    width: 70vw;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    line-height: 8vh;
+    border-radius: 20px;
+}
+.btn-popular{
+    background-color: brown;
+    color: white;
+    padding: 1em;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.btn-popular:hover{
+    transition-duration: 0.5s;
+    transition-duration: padding;
+    padding: 1.7em;
+    font-weight: bold;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 70vw;
+    font-size: 30px;
+    justify-content: space-evenly;
+    margin: auto;
+    align-items: center;
+}
+.contact_input{
+    padding: 20px;
+    width: 40vw;
+    border-radius: 5px;
+    border: solid black;
 }
