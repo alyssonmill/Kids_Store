@@ -11,9 +11,11 @@
 <!-- https://wearegoose.ie/ -->
 
 <body>
+
     <header class="header">
-        <div class="logo">LOGO</div>
+        <div class="promo">Get 10% off your first order when you sign up to our mailing list! 🎉</div>
         <nav class="navBar">
+            <div class="logo"><a style="font-size: 24px;" class="nav_list" href="index.html">LOGO</a></div>
             <a class="nav_list" href="index.html">Home</a>
             <a class="nav_list" href="about-us.html">About Us</a>
             <a class="nav_list" href="#">
@@ -31,9 +33,10 @@
 
         <section class="content">
             <div class="content1">
-                <h1 class="content_titlle">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
-                <h6 class="content-subtittle">We simplify your business ideas and products through animated explainer
-                    videos.</h6>
+                <h1 style="font-size: 80px; " class="content_titlle">Lorem ipsum dolor</h1>
+                <p style="font-size: 20px; " class="content-subtittle">We simplify your business ideas and products
+                    through animated explainer
+                    videos.</p>
                 <div class="btn">
                     <button class="btn-content">SHOP NOW</button>
                 </div>
@@ -41,63 +44,57 @@
 
     </header>
 
-
-    <!-- 
-
-    <section class="popular">
-        <h1 class="popular_titlle">Most Popular</h1>
-        <div class="popular_cards">
-            <div class="popular_card">
-                <img class="card_img" src="./images/pexels-gabby-k-5063313.jpg" alt="">
-                <div class="popular_card_content">
-                    <p class="card_p">Sage Green Drops Rainsuit</p>
-                    <h1 class="card_price">€39,50 EUR</h1>
-                    <a href="individual.html"><button style="padding: 0.8em;" class="btn-content">SHOP NOW</button></a>
-                </div>
-            </div>
-            <div class="popular_card">
-                <img class="card_img" src="./images/pexels-gabby-k-5063313.jpg" alt="">
-                <div class="popular_card_content">
-                    <p class="card_p">Sage Green Drops Rainsuit</p>
-                    <h1 class="card_price">€39,50 EUR</h1>
-                    <a href="individual.html"><button style="padding: 0.8em;" class="btn-content">SHOP NOW</button></a>
-                </div>
-            </div>
-            <div class="popular_card">
-                <img class="card_img" src="./images/pexels-gabby-k-5063313.jpg" alt="">
-                <div class="popular_card_content">
-                    <p class="card_p">Sage Green Drops Rainsuit</p>
-                    <h1 class="card_price">€39,50 EUR</h1>
-                    <a href="individual.html"><button style="padding: 0.8em;" class="btn-content">SHOP NOW</button></a>
-                </div>
-            </div>
+    <main>
+        <div class="titlle">
+            <h1 style="font-size: 60px;">Most Popular</h1>
         </div>
-    </section>
+        <section class="popular">
+            <div class="cards">
+                <div class="card">
+                    <img src="./images/pexels-pixabay-207891.jpg" alt="">
+                    <h1>Sage Green Drops Rainsuit</h1>
+                    <h1>€39,50 EUR</h1>
+                    <a href="individual.html"><button class="btn-popular">SHOP
+                            NOW</button></a>
+                </div>
+                <div class="card">
+                    <img src="./images/pexels-pixabay-207891.jpg" alt="">
+                    <h1>Sage Green Drops Rainsuit</h1>
+                    <h1>€39,50 EUR</h1>
+                    <a href="individual.html"><button class="btn-popular">SHOP
+                            NOW</button></a>
+                </div>
+                <div class="card">
+                    <img src="./images/pexels-pixabay-207891.jpg" alt="">
+                    <h1>Sage Green Drops Rainsuit</h1>
+                    <h1>€39,50 EUR</h1>
+                    <a href="individual.html"><button class="btn-popular">SHOP
+                            NOW</button></a>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <section id="contact" class="contact">
-        <h1 class="contact-title">Contact Us</h1>
-        <form class="contact-form" method="post">
-            <ul class="form-list">
-                <li class="form-name">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name" />
-                </li>
-                <li class="form-email">
-                    <label for="msg">Phone:</label>
-                    <input type="number" id="phone" name="user_phone" required/> 
-                    
-                </li>
-                <li class="form-message">
-                    <label for="mail">Email:</label>
-                    <input type="email" id="email" name="user_email" required/>    
-                </li>
-                <li class="button">
-                    <button type="submit" class="btn-content">SEND YOUR MESSAGE</button>
-                </li>
-            </ul>
+    <footer>
+        <div class="titlle">
+            <h1 style="font-size: 60px;">Contact Us</h1>
+        </div>
+        <!-- <section id="contact" class="contact"> -->
+
+        <form id="contact" method="post">
+            <input class="contact_input" type="text" id="name" name="user_name" placeholder="Name" />
+            <input class="contact_input" type="email" id="email" name="user_email" placeholder="Email" required />
+            <textarea style="  height: 20vh;" class="contact_input" placeholder="Message" name="message" id="message"></textarea>
+            <button type="submit" class="btn-content">SEND YOUR MESSAGE</button>
+
         </form>
 
-    </section>
+        <!-- </section> -->
+    </footer>
+
+
+    <!-- 
+    
 
  -->
 
