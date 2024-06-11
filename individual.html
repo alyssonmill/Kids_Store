@@ -4,71 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Individual product</title>
     <link rel="stylesheet" href="individual.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="logo">
-            <h1 class="logoImg">Logo</h1>
-        </div>
-        <navbar class="navBar">
-            <ul class="navList">
-                <li id="list"><a href="index.html">Home</a></li>
-                <li id="list"><a href="about-us.html">About Us</a></li>
-                <li id="list"><a href="#"><img style="color: white; margin-top: 25px;" width="30px" src="./icons/trolly.png" alt="shopping-cart"></a></li>
-            </ul>
-        </navbar>
+    <header>
+        <div class="promo">Get 10% off your first order when you sign up to our mailing list! 🎉</div>
+        <nav class="navBar">
+            <div class="logo"><a style="font-size: 24px;" class="nav_list" href="index.html">LOGO</a></div>
+            <a class="nav_list" href="index.html">Home</a>
+            <a class="nav_list" href="about-us.html">About Us</a>
+            <a class="nav_list" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
+                    <circle cx="10.5" cy="19.5" r="1.5"></circle>
+                    <circle cx="17.5" cy="19.5" r="1.5"></circle>
+                    <path d="M13 13h2v-2.99h2.99v-2H15V5.03h-2v2.98h-2.99v2H13V13z"></path>
+                    <path
+                        d="M10 17h8a1 1 0 0 0 .93-.64L21.76 9h-2.14l-2.31 6h-6.64L6.18 4.23A2 2 0 0 0 4.33 3H2v2h2.33l4.75 11.38A1 1 0 0 0 10 17z">
+                    </path>
+                </svg>
+            </a>
+        </nav>
     </header>
 
-    <section class="content">
-        <div class="left_content">
-            <img style="border-radius: 20px;" width="500px" class="img-1" src="./images/pexels-gabby-k-5063313.jpg" alt="">
+    <main>
+        <section class="images">
+            <img width="400px" src="./images/pexels-pixabay-160994.jpg" alt="">
+            <img width="198px" src="./images/pexels-pixabay-160994.jpg" alt="">
+            <img width="198px" src="./images/pexels-pixabay-160994.jpg" alt="">
+        </section>
+
+        <article>
+            <h1 style="font-size: 35px;">Sage Green Drops Rainsuit</h1>
+            <h1 style="font-size: 30px;">€39,50 EUR</h1>
             <div class="box">
-                <img style="border-radius: 20px;" width="164px" class="img-1" src="./images/pexels-gabby-k-5063313.jpg" alt="">
-                <img style="border-radius: 20px;" width="164px" class="img-1" src="./images/pexels-gabby-k-5063313.jpg" alt="">
-                <img style="border-radius: 20px;" width="164px" class="img-1" src="./images/pexels-gabby-k-5063313.jpg" alt="">
+                <p>-</p>
+                <p >0</p>
+                <p>+</p>
             </div>
-        </div>
+            <div>
+                <button class="btn-content">Shop Now</button>
+            </div>
+        </article>
+    </main>
 
-        <div class="right_content">
-                <h1 class="tittle_content">Lorem ipsum</h1> 
-                <h1 class="price_content">€39,50 EUR</h1> 
-                <div class="qtd_box">
-                    <p class="delete">-</p>
-                    <p class="qtd">0</p>
-                    <p class="add">+</p>
-                </div>
-        </div>
-
-        
-    </section>
-
-
-
-    <section id="contact" class="contact">
-        <h1 class="contact-title">Contact Us</h1>
-        <form class="contact-form" method="post">
-            <ul class="form-list">
-                <li class="form-name">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name" />
-                </li>
-                <li class="form-email">
-                    <label for="msg">Phone:</label>
-                    <input type="number" id="phone" name="user_phone" required />
-
-                </li>
-                <li class="form-message">
-                    <label for="mail">Email:</label>
-                    <input type="email" id="email" name="user_email" required />
-                </li>
-                <li class="button">
-                    <button type="submit" class="btn-content">SEND YOUR MESSAGE</button>
-                </li>
-            </ul>
+    <footer>
+        <section class="titlle">
+            <h1 style="font-size: 60px;">Contact Us</h1>
+        </section>
+        <form id="contact" method="post">
+            <input class="contact_input" type="text" id="name" name="user_name" placeholder="Name" />
+            <input class="contact_input" type="email" id="email" name="user_email" placeholder="Email" required />
+            <textarea style="border-style: solid; height: 20vh;" class="contact_input" placeholder="Message"
+                name="message" id="message"></textarea>
+            <button type="submit" class="btn-content">SEND YOUR MESSAGE</button>
         </form>
+    </footer>
+
 </body>
 
 </html>
