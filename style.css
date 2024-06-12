@@ -41,6 +41,7 @@ ul {
 img {
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 .promo{
     display: flex;
@@ -57,6 +58,11 @@ nav {
     flex-wrap: wrap;
     width: 60vw;
     height: 10vh;
+}
+.nav_list:hover{
+    transition-duration: 0.5s;
+    transition-duration: font-size;
+    font-size: 1.2em;
 }
 .content{
     display: flex;
