@@ -52,6 +52,7 @@ img {
 }
 nav {
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     margin: auto;
@@ -59,20 +60,42 @@ nav {
     width: 60vw;
     height: 10vh;
 }
-.nav_list:hover{
+/* .nav_list:hover{
     transition-duration: 0.5s;
     transition-duration: font-size;
     font-size: 1.2em;
+} */
+
+.market{
+    display: flex;
+    justify-content: right;
+    width: 13vw;
+    height: 40vh;
+    background-color: red;
+    position:fixed;
+    top: 12vh;
+    left: 65vw;
 }
+
+
+
+
+
+
+
+
+
+
+
 .content{
     display: flex;
-    height: 115vh;
-    background-image: url(./images/pexels-pixabay-207891.jpg);
+    flex-direction: column;
+    height: 75vh;
     opacity: 0.9;
     background-size:cover;
 }
 .content1{
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     line-height: 9vh;
@@ -93,6 +116,10 @@ nav {
     background-color: #412411;
     color: white;
     font-weight: bold;
+}
+.header_img{
+    display: flex;
+    justify-content: center;
 }
 .main{
     display: flex;
