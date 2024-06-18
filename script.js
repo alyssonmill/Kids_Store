@@ -1,4 +1,4 @@
 
-function x (id){
-    let div = document.getElementsById(id)
+function con (id){
+    console.log("div")
 }
