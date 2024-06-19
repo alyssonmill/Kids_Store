@@ -1,8 +1,12 @@
 
 let div = document.getElementById("cart_icon");
+let market = document.getElementById("market");
+
+div.addEventListener("click", () =>{
+    if(div){
+        market.style.display = "none";
+    }
+})
 
 
-function con (div){
-    div.style.padding = "1.5em"
-    // console.log(div)
-}
+
