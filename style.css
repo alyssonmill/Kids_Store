@@ -55,24 +55,19 @@ nav {
     position: relative;
     justify-content: space-between;
     align-items: center;
+    /* background-color: blue; */
     margin: auto;
     flex-wrap: wrap;
     width: 60vw;
     height: 10vh;
 }
-/* .nav_list:hover{
-    transition-duration: 0.5s;
-    transition-duration: font-size;
-    font-size: 1.2em;
-} */
 
 #market{
-    display: flex;
-    justify-content: right;
+    display: none;
     width: 13vw;
     height: 40vh;
     background-color: red;
-    position:fixed;
+    position: absolute;
     top: 12vh;
     left: 65vw;
 }
