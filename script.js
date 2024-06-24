@@ -12,6 +12,14 @@ div.addEventListener("click", () =>{
     }
 })
 
+let form = document.getElementsByClassName("contact_input");
+
+[...form].forEach(x => {
+    window.localStorage.setItem(x,"teST")
+});
+
+
+
 
 
 
